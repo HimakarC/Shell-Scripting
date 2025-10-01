@@ -10,7 +10,7 @@ b=1
 # Write loop condition
 while [ $n -gt 0 ]
 do
-  echo $a" "  #Display this variable
+  echo $a  #Display this variable
   c=$((a + b))
   a=$b
   b=$c
